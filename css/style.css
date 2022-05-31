@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile (Base) Styles */
+
+/* Header Styles */
+.main-background {
+    background-color: #FAF9F6;
+}
+
+.logoBanner {
+    margin: 1rem auto 0 auto;
+    padding: .5rem;
+    text-align: center;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+    color: #F4978E;
+    padding: .5rem;
+}
+
+.mainLogo {
+    display: inline;
+    width: 2rem;
+    text-align: center;
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+}
+
+.menu-item {
+    list-style: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #F4978E;
+    padding: .5rem;
+}
+
+.mainBanner {
+    width: 100%;
+}
+
+/* Link Styles */
+
+ul {
+    font-family: 'Muli', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #8FA972;
+}
+
+a:visited {
+    color: #8FA972;
+}
+
+a:hover {
+    color: #8FB8ED;
+}
+
+.home a:link,
+.home a:visited {
+    color: #F4978E;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+/* Main Body Styles */
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.7rem;
+    color: #8FB8ED;
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+    text-align: justify;
+    font-size: 1rem;
+    width: 80%;
+    margin: auto;
+    line-height: 1.2rem;
+    padding: 1rem;
+    word-spacing: 4px;
+}
+
+.downArrow {
+    display: block;
+    width: 1.3rem;
+    margin: 0 auto;
+    padding-bottom: .5rem;
+}
+
+.recipe-preview {
+    width: 80%;
+    height: 40%;
+    display: block;
+    margin: auto;
+    padding: .5rem;
+}
+
+.recipe-link {
+    font-family: 'Muli', sans-serif;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 .5rem 1rem .5rem;
+}
+
+/* Footer Styles */
+#back-to-top {
+    font-family: 'Muli', sans-serif;
+    color: #F4978E;
+    display: block;
+    margin: 1rem auto .4rem auto;
+    padding: 2rem 1rem .5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/img/peachFooter.PNG);
+    background-color: #F4978E;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 8rem;
+}
+
+.social-logos {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.socials {
+    margin: 0 auto;
+}
+
+span {
+    font-family: 'Muli', sans-serif;
+    color: #FAF9F6;
+    display: block;
+    margin: 0 auto .4rem auto;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 550;
+}
+
+/* Page Styles */
+
+.cookies a:link,
+.cookies a:visited {
+    color: #F4978E;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.cakes a:link,
+.cakes a:visited {
+    color: #F4978E;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.bread a:link,
+.bread a:visited {
+    color: #F4978E;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.contact a:link,
+.contact a:visited {
+    color: #F4978E;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.recipe-image {
+    width: 80%;
+    display: block;
+    margin: 2rem auto;
+}
+
+ul.ingredient-list {
+    width: 80%;
+    font-family: 'Muli', sans-serif;
+    margin: 1rem auto;
+    word-spacing: 4px;
+    text-align: left;
+    list-style: none;
+}
+
+ol.instruction-list {
+    width: 70%;
+    font-family: 'Muli', sans-serif;
+    margin: 1rem auto;
+    word-spacing: 7px;
+    text-align: left;
+    padding-bottom: 3rem;
+}
+
+li {
+    line-height: 1rem;
+    padding: .3rem;
+    margin: auto;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1.5px solid;
+    border-color: #F4978E;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    padding: .8rem;
+}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+    color: #8FA972;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem 1rem .5rem 1rem;
+}
+
+.baking-video {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+h4 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2rem;
+    color: #8FA972;
+    text-align: center;
+    margin: 1rem;
+}
+
+h5 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    color: #646464;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Form Styles */
+label {
+    display: block;
+    font-family: 'Muli', sans-serif;
+    font-size: .8rem;
+    color: #646464;
+    padding: 1rem; /* CORREGIDO*/
+    margin: 1rem;
+}
+
+input[type=text],
+[type=email] {
+    display: block;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 1rem auto;
+}
+
+input[type=textField] {
+    display: block;
+    padding: 12px 20px;
+    margin: 1rem auto;
+}
+
+input[type=submit] {
+    display: block;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 1rem auto;
+}
+
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .menu-item {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .downArrow {
+        width: 1.5rem;
+    }
+
+    .recipe-preview {
+        width: 60%;
+    }
+
+    .recipe-link {
+        font-size: 1.3rem;
+    }
+
+    /* Page Styles */
+
+    .recipe-image {
+        width: 60%;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    ul.ingredient-list {
+        width: 60%;
+    }
+
+    ol.instruction-list {
+        width: 50%;
+    }
+
+    li {
+        line-height: 1rem;
+        padding: .3rem;
+        margin: auto;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    .baking-video {
+        width: 80%;
+    }
+}
+
+/* Laptop Styles */
+@media (min-width: 992px) {
+
+    .main-menu {
+        display: flex;
+    }
+
+    .logoBanner {
+        justify-content: flex-start;
+        flex-grow: 1;
+        flex-basis: auto;
+        text-align: left;
+        padding-left: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+
+    .menu-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-basis: auto;
+        flex-grow: 3;
+        padding: 1rem 1rem 0 1rem;
+
+    }
+
+    .menu-item {
+        font-size: 1.4rem;
+        padding: 1.3rem;
+    }
+
+    p {
+        width: 70%;
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        margin-top: 1.5rem;
+        padding: .5rem;
+    }
+
+    .recipe-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "easyRecipes popularRecipes";
+    }
+
+    #easyRecipes {
+        grid-area: easyRecipes;
+    }
+
+    #popularRecipes {
+        grid-area: popularRecipes;
+    }
+
+    .recipe-preview {
+        width: 80%;
+        height: 40%;
+        display: block;
+        margin: auto;
+        padding: .5rem;
+    }
+
+    .recipe-link {
+        font-family: 'Muli', sans-serif;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 0 .5rem 1rem .5rem;
+    }
+}
+
+/* Big Screen Styles */
+@media (min-width: 1200px) {
+    .main-menu {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .menu-item {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        width: 80%;
+        margin: 0 auto;
+        padding: .5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .body-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas:"about easyRecipes popularRecipes";
+        margin-bottom: 1rem;
+    }
+
+    .recipe-container {
+        margin: 0 2rem 0 auto;
+    }
+
+    #about {
+        grid-area: about;
+    }
+
+    #easyRecipes {
+        grid-area: easyRecipes;
+    }
+
+    #popularRecipes {
+        grid-area: popularRecipes;
+    }
+
+    .recipe-preview {
+        width: 80%;
+        height: 40%;
+        display: block;
+        padding: .5rem;
+    }
+
+    .recipe-link {
+        font-family: 'Muli', sans-serif;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 0 .5rem 1rem .5rem;
+    }
+
+    .page-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "recipe-1 recipe-2"
+            "recipe-3 recipe-4"
+            "recipe-5 recipe-6";
+        margin-bottom: 1rem;
+    }
+
+    .recipe-part1 {
+        grid-area: recipe-1;
+    }
+
+    .recipe-part2 {
+        grid-area: recipe-2;
+    }
+
+    .recipe-part3 {
+        grid-area: recipe-3;
+    }
+
+    .recipe-part4 {
+        grid-area: recipe-4;
+    }
+
+    .recipe-part5 {
+        grid-area: recipe-5;
+    }
+
+    .recipe-part6 {
+        grid-area: recipe-6;
+    }
+}
+
+
+This is bootstrap code and I will start by saying that this willmaje our lives 10 times easier!
+What sha; I say, this really does make stuff more enjoyable for everyone I bet!
+
+class {
+    background-color: lightgrey;
+    margin: 2 px.
+}
