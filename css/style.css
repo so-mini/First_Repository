@@ -24,6 +24,11 @@ h1 {
     text-align: center;
     color: #F4978E;
     padding: .5rem;
+    transition: font-size .2s .1s;
+}
+
+a h1:hover {
+    font-size: 3rem;
 }
 
 .mainLogo {
@@ -145,11 +150,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(/img/peachFooter.PNG);
-    background-color: #F4978E;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(360deg, #FDA48F,#FFB5A3);
     height: 8rem;
 }
 
