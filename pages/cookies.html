@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -32,9 +33,12 @@
     <main>
         <img class="mainBanner" src="../img/blueChoChips.jpg" alt="Blue background with cookies">
 
-        <div class="page-container">
+<!-- Chocolate Chip Section -->
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+            <div class="col">
                 <div class="recipe-part1">
-                    <h2>Chewy Chocolate Chip Cookies</h2>
+                    <h2 id="choco-chip-cookie">Chewy Chocolate Chip Cookies</h2>
                         <table>
                             <tr>
                                 <th>Prep Time</th>
@@ -49,134 +53,143 @@
                         </table>
                     <img class="recipe-image" src="../img/chocChip.jpg" alt="Image of chocolate chip cookie">
                 </div>
+            </div>
 
-                <div class="recipe-part2">
-                    <h3>Ingredients</h3>
-                    <ul class="ingredient-list">
-                        <li>155g flour.</li>
-                        <li>40g ground sugar(165 g), packed</li>
-                        <li>80g brown sugar</li>
-                        <li>1 egg</li>
-                        <li>115g unsalted butter (melted)</li>
-                        <li>1 tspn vanilla extract</li>
-                        <li>1 tsp salt</li>
-                        <li>½ teaspoon baking soda</li>
-                        <li>1 dark chocolate bar</li>
-                        <li>110g chocolate chips</li>
-                    </ul>
-
-                    <h3>Instructions</h3>
-                    <ol class="instruction-list">
-                        <li>In a large bowl, whisk together the sugars, salt, and butter until a paste forms.</li>
-                        <li>Whisk in the egg and vanilla.</li>
-                        <li>Sift in the flour and baking soda, then fold into the mixture.</li>
-                        <li>Fold in the chocolate, leaving some behind for when baking, then chill the dough for at
-                            least 30 minutes.</li>
-                        <li>Preheat oven to 350°F (180°C). Line a baking sheet with parchment paper.</li>
-                        <li>Scoop the dough onto a parchment paper-lined baking sheet.</li>
-                        <li>Bake for 12-15 minutes.</li>
-                        <li>Cool completely before serving.</li>
-                    </ol>
-                </div>
-
-                    <div class="recipe-part3">
-                    <h2>Peanut Butter Cookies</h2>
-                    <table>
-                        <tr>
-                            <th>Prep Time</th>
-                            <th>Cooking Time</th>
-                            <th>Total Time</th>
-                        </tr>
-                        <tr>
-                            <td>15 mins</td>
-                            <td>30 mins</td>
-                            <td>45 mins</td>
-                        </tr>
-                    </table>
-                    <img class="recipe-image" src="../img/pbcookies.jpg" alt="Image of crispy peanut butter cookies">
-                </div>
-
-                <div class="recipe-part4">
-                    <h3>Ingredients</h3>
-                    <ul class="ingredient-list">
-                        <li>110g unsalted butter</li>
-                        <li>120g peanut butter</li>
-                        <li>120g brown sugar</li>
-                        <li>½ cup unsalted butter(115 g), melted</li>
-                        <li>1 egg</li>
-                        <li>200g all-purpose flour</li>
-                        <li>3g baking powder</li>
-                    </ul>
-
-                    <h3>Instructions</h3>
-                    <ol class="instruction-list">
-                        <li>In a large bowl, mix together the butter (room temperature) and peanut butter until smooth.
-                        </li>
-                        <li>Whisk in the brown sugar and mix well.</li>
-                        <li>Put in the egg and incorporate evenly.</li>
-                        <li>Add in the all-purpose flour and fold carefully until a smooth lump forms.</li>
-                        <li>Preheat oven to 350°F (180°C). Line a baking sheet with parchment paper.</li>
-                        <li>Bake for 12-15 minutes.</li>
-                        <li>Cool completely before serving.</li>
-                    </ol>
-                </div>
-
-                <div class="recipe-part5">
-                    <h2>Meringue Cookies</h2>
-                    <table>
-                        <tr>
-                            <th>Prep Time</th>
-                            <th>Cooking Time</th>
-                            <th>Total Time</th>
-                        </tr>
-                        <tr>
-                            <td>20 mins</td>
-                            <td>2 hrs</td>
-                            <td>2 hrs 20 mins</td>
-                        </tr>
-                    </table>
-
-                    <img class="recipe-image" src="../img/meringuecookies.jpg" alt="Image of meringue cookies">
-                </div>
-
-                <div class="recipe-part6">
-                    <h3>Ingredients</h3>
-                    <ul class="ingredient-list">
-                        <li>4 large egg whites room temperature</li>
-                        <li>½ teaspoon cream of tartar</li>
-                        <li>⅛ teaspoon salt</li>
-                        <li>1 cup granulated sugar (200g)</li>
-                        <li>1 teaspoon vanilla extract</li>
-                    </ul>
-
-                    <h3>Instructions</h3>
-                    <ol class="instruction-list">
-                        <li>Preheat oven to 225F (105C) and line a large cookie sheet (or two regular-sized cookie
-                            sheets -- make sure they will fit in your oven together) with parchment paper. Set aside.
-                        </li>
-                        <li>Combine egg whites, cream of tartar, and salt in a large, completely clean, completely
-                            grease-free bow</li>
-                        <li>Using an electric mixer or a stand mixer (with either the whisk or paddle attachment), stir
-                            on low speed until mixture becomes foamy.</li>
-                        <li>With mixer on high, gradually add sugar, about 1 Tablespoon at a time, stirring after each
-                            addition until sugar is dissolved (about 15-20 seconds between each addition).</li>
-                        <li>Beat until mixture is thick, shiny, and has increased in volume. Mixture should have stiff
-                            peaks and sugar should be completely dissolved (you can test this by rubbing a small bit of
-                            the mixture between your fingers, if it feels gritty, the sugar isn't dissolved)</li>
-                        <li>Stir in vanilla extract and any other extract you may like to use. If using food coloring,
-                            add the food coloring at this stage, too.</li>
-                        <li>Fit a large disposable piping bag with a large tip (I used Ateco 846, but any large star tip
-                            will work or you can just snip the edge of the piping bag for a “kiss” formation) and
-                            transfer meringue to prepared piping bag and pipe onto prepared cookie sheet. The meringue
-                            cookies can be pretty close to each other as they won’t spread, and you will want to bake
-                            all of the cookies at the same time, so make sure you make enough space.</li>
-                        <li>Bake on 225F (105C) for 1 hour. Turn off the oven once the baking time has passed, and do
-                            not open the oven. Leave the oven door closed and allow cookies to cool completely in the
-                            oven (1-2 hours) before removing.</li>
-                    </ol>
-                </div>
-
+            <div class="col">
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lily.gif/video/7097711397131406597" data-video-id="7097711397131406597" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lily.gif" href="https://www.tiktok.com/@lily.gif">@lily.gif</a> Galletitas suaves y deliciosas. 🤤 <a title="galletas" target="_blank" href="https://www.tiktok.com/tag/galletas">#galletas</a> <a title="galletasdechocolate" target="_blank" href="https://www.tiktok.com/tag/galletasdechocolate">#galletasdechocolate</a> <a title="reposteria" target="_blank" href="https://www.tiktok.com/tag/reposteria">#reposteria</a> <a title="parati" target="_blank" href="https://www.tiktok.com/tag/parati">#parati</a> <a title="galletassuaves" target="_blank" href="https://www.tiktok.com/tag/galletassuaves">#galletassuaves</a> <a title="🍪" target="_blank" href="https://www.tiktok.com/tag/%F0%9F%8D%AA">#🍪</a> <a title="chocolatechipcookies" target="_blank" href="https://www.tiktok.com/tag/chocolatechipcookies">#chocolatechipcookies</a> <a title="chocolate" target="_blank" href="https://www.tiktok.com/tag/chocolate">#chocolate</a> <a title="cookies" target="_blank" href="https://www.tiktok.com/tag/cookies">#cookies</a> <a title="baking" target="_blank" href="https://www.tiktok.com/tag/baking">#baking</a> <a title="bakingcookies" target="_blank" href="https://www.tiktok.com/tag/bakingcookies">#bakingcookies</a> <a title="homemade" target="_blank" href="https://www.tiktok.com/tag/homemade">#homemade</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">#foryou</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp">#fyp</a> <a title="aesthetic" target="_blank" href="https://www.tiktok.com/tag/aesthetic">#aesthetic</a> <a title="cute" target="_blank" href="https://www.tiktok.com/tag/cute">#cute</a> <a title="coreana" target="_blank" href="https://www.tiktok.com/tag/coreana">#coreana</a> <a title="coreanaenmexico" target="_blank" href="https://www.tiktok.com/tag/coreanaenmexico">#coreanaenmexico</a> <a target="_blank" title="♬ L’Amour, Les Baguettes, Paris - Stella Jang" href="https://www.tiktok.com/music/L’Amour-Les-Baguettes-Paris-7019242301041952770">♬ L’Amour, Les Baguettes, Paris - Stella Jang</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+            </div>
+            </div>
         </div>
+
+<!-- Chocolate Chip Cookie Accordion -->    
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h3>Ingredients</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ul class="ingredient-list">
+                                <li>155g flour</li>
+                                <li>40g granulated sugar</li>
+                                <li>80g brown sugar</li>
+                                <li>1 egg</li>
+                                <li>115g unsalted butter (melted)</li>
+                                <li>1 tsp vanilla extract</li>
+                                <li>1 tsp salt</li>
+                                <li>½ tsp baking soda</li>
+                                <li>1 dark chocolate bar</li>
+                                <li>110g chocolate chips</li>
+                            </ul>                       
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h3>Instructions</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <ol class="instruction-list">
+                                <li>In a large bowl, whisk together the sugars, salt, and butter until a paste forms.</li>
+                                <li>Whisk in the egg and vanilla.</li>
+                                <li>Sift in the flour and baking soda, then fold into the mixture.</li>
+                                <li>Fold in the chocolate, leaving some behind for when baking, then chill the dough for at least 30 minutes.</li>
+                                <li>Preheat oven to 350°F (180°C). Line a baking sheet with parchment paper.</li>
+                                <li>Scoop the dough onto the baking sheet.</li>
+                                <li>Bake for 12-15 minutes.</li>
+                                <li>Cool completely before serving.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+
+
+<!-- Mug Choco Chip Cookie Section -->
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+    <div class="col">
+        <div class="recipe-part1">
+            <h2 id="mug-cookie">Easy Mug Chocolate Chip Cookie</h2>
+                <table>
+                    <tr>
+                        <th>Prep Time</th>
+                        <th>Cooking Time</th>
+                        <th>Total Time</th>
+                    </tr>
+                    <tr>
+                        <td>5 mins</td>
+                        <td>1 min</td>
+                        <td>6 min</td>
+                    </tr>
+                </table>
+            <img class="recipe-image" src="../img/mug-choco.jpg" alt="Image of chocolate chip cookie in a mug">
+        </div>
+    </div>
+
+    <div class="col tiktok-mug-cookie">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lily.gif/video/7101761229928140037" data-video-id="7101761229928140037" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lily.gif" href="https://www.tiktok.com/@lily.gif">@lily.gif</a> Choccy chip cookie in a mug 🍪💗 <a title="cookie" target="_blank" href="https://www.tiktok.com/tag/cookie">#cookie</a> <a title="chocolatechipcookies" target="_blank" href="https://www.tiktok.com/tag/chocolatechipcookies">#chocolatechipcookies</a> <a title="cookieinamug" target="_blank" href="https://www.tiktok.com/tag/cookieinamug">#cookieinamug</a> <a title="mugcookie" target="_blank" href="https://www.tiktok.com/tag/mugcookie">#mugcookie</a> <a title="cookierecipe" target="_blank" href="https://www.tiktok.com/tag/cookierecipe">#cookierecipe</a> <a title="galletasdechocolate" target="_blank" href="https://www.tiktok.com/tag/galletasdechocolate">#galletasdechocolate</a> <a title="galletas" target="_blank" href="https://www.tiktok.com/tag/galletas">#galletas</a> <a title="recetafacil" target="_blank" href="https://www.tiktok.com/tag/recetafacil">#recetafacil</a> <a title="parati" target="_blank" href="https://www.tiktok.com/tag/parati">#parati</a> <a title="coreana" target="_blank" href="https://www.tiktok.com/tag/coreana">#coreana</a> <a title="coreanaenmexico" target="_blank" href="https://www.tiktok.com/tag/coreanaenmexico">#coreanaenmexico</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">#foryou</a> <a title="baketok" target="_blank" href="https://www.tiktok.com/tag/baketok">#baketok</a> <a target="_blank" title="♬ Married Life (From &#34;Up&#34;) - Gina Luciani" href="https://www.tiktok.com/music/Married-Life-From-Up-6886867274171418626">♬ Married Life (From &#34;Up&#34;) - Gina Luciani</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+    </div>
+</div>
+
+<!-- Mug Chocolate Chip Cookie Accordion -->    
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h3>Ingredients</h3>
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="ingredient-list">
+                        <li>10 g butter</li>
+                        <li>1 tbsp sugar</li>
+                        <li>1 tbsp brown sugar</li>
+                        <li>1 pinch of salt</li>
+                        <li>1/2 tsp vanilla extract</li>
+                        <li>1 egg yolk</li>
+                        <li>3 tbsp flour</li>
+                        <li>2 tbsp chocolate chips</li>
+                    </ul>                       
+                </div>
+            </div>
+            </div>
+
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <h3>Instructions</h3>
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ol class="instruction-list">
+                        <li>In a microwave-safe mug, melt butter and mix with sugars and salt.</li>
+                        <li>Add vanilla extract and egg yolk and mix well.</li>
+                        <li>Incorporate flour into the mix.</li>
+                        <li>Fold in the chocolate chips.</li>
+                        <li>Microwave for a minute and enjoy!</li>
+                    </ol>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+
 
         <a id="back-to-top" href="#top">Back to top</a>
     </main>
@@ -191,6 +204,7 @@
             <span>Copyright &copy; 2022 Mini Recipes all rights reserved.</span>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>

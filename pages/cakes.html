@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -30,9 +31,12 @@
     <main>
         <img class="mainBanner" src="../img/cakeIngredients.jpg" alt="Counter with flour and eggs">
 
-        <div class="page-container">
-            <div class="recipe-part1">
-                <h2>Swiss Roll Cake</h2>
+<!-- Mango Cake Section -->
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+    <div class="col">
+        <div class="recipe-part1">
+            <h2 id="mango-cake">Mango Vanilla Cake</h2>
                 <table>
                     <tr>
                         <th>Prep Time</th>
@@ -40,86 +44,151 @@
                         <th>Total Time</th>
                     </tr>
                     <tr>
-                        <td>30 mins</td>
-                        <td>30 mins</td>
                         <td>1 hr</td>
+                        <td>50 mins</td>
+                        <td>1 hr 50 mins</td>
                     </tr>
                 </table>
-                <img class="recipe-image" src="../img/rollcake.PNG" alt="Image of swiss rollcake">
-            </div>
+            <img class="recipe-image" src="../img/mango-cake.jpg" alt="Image of mango cake">
+        </div>
+    </div>
 
-            <div class="recipe-part2">
+    <div class="col">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lily.gif/video/7100351643874594054" data-video-id="7100351643874594054" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lily.gif" href="https://www.tiktok.com/@lily.gif">@lily.gif</a> Pastelito con mango fresco 🥭 para este calor 💛✨ <a title="pastel" target="_blank" href="https://www.tiktok.com/tag/pastel">#pastel</a> <a title="pasteldemango" target="_blank" href="https://www.tiktok.com/tag/pasteldemango">#pasteldemango</a> <a title="mango" target="_blank" href="https://www.tiktok.com/tag/mango">#mango</a> <a title="haciendopastel" target="_blank" href="https://www.tiktok.com/tag/haciendopastel">#haciendopastel</a> <a title="receta" target="_blank" href="https://www.tiktok.com/tag/receta">#receta</a> <a title="recetapastel" target="_blank" href="https://www.tiktok.com/tag/recetapastel">#recetapastel</a> <a title="parati" target="_blank" href="https://www.tiktok.com/tag/parati">#parati</a> <a title="paratupagina" target="_blank" href="https://www.tiktok.com/tag/paratupagina">#paratupagina</a> <a title="pt" target="_blank" href="https://www.tiktok.com/tag/pt">#pt</a> <a title="ptp" target="_blank" href="https://www.tiktok.com/tag/ptp">#ptp</a> <a title="cake" target="_blank" href="https://www.tiktok.com/tag/cake">#cake</a> <a title="mangocake" target="_blank" href="https://www.tiktok.com/tag/mangocake">#mangocake</a> <a title="spongecake" target="_blank" href="https://www.tiktok.com/tag/spongecake">#spongecake</a> <a title="mango" target="_blank" href="https://www.tiktok.com/tag/mango">#mango</a> <a title="cute" target="_blank" href="https://www.tiktok.com/tag/cute">#cute</a> <a title="aesthetic" target="_blank" href="https://www.tiktok.com/tag/aesthetic">#aesthetic</a> <a title="recipe" target="_blank" href="https://www.tiktok.com/tag/recipe">#recipe</a> <a title="cakerecipe" target="_blank" href="https://www.tiktok.com/tag/cakerecipe">#cakerecipe</a> <a title="softgirlvibes" target="_blank" href="https://www.tiktok.com/tag/softgirlvibes">#softgirlvibes</a> <a title="coreana" target="_blank" href="https://www.tiktok.com/tag/coreana">#coreana</a> <a title="coreanaenmexico" target="_blank" href="https://www.tiktok.com/tag/coreanaenmexico">#coreanaenmexico</a> <a title="coreanacocinando" target="_blank" href="https://www.tiktok.com/tag/coreanacocinando">#coreanacocinando</a> <a title="reposteria" target="_blank" href="https://www.tiktok.com/tag/reposteria">#reposteria</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">#foryou</a> <a title="foryourpage" target="_blank" href="https://www.tiktok.com/tag/foryourpage">#foryourpage</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp">#fyp</a> <a target="_blank" title="♬ Can&#39;t Help Falling In Love - Kina Grannis" href="https://www.tiktok.com/music/Can't-Help-Falling-In-Love-6705004406372304897">♬ Can&#39;t Help Falling In Love - Kina Grannis</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+    </div>
+</div>
+
+<!-- Mango Cake Accordion -->    
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                 <h3>Ingredients</h3>
-                <ul class="ingredient-list">
-                    <li>5 egg yolk</li>
-                    <li>Salt 1g</li>
-                    <li>Sugar 50g</li>
-                    <li>Cake flour 90g</li>
-                    <li>Baking Powder 2g</li>
-                    <li>Vegetable oil 50g </li>
-                    <li>Milk 50g</li>
-                    <li>Meringue (5 egg white + Sugar 70g)</li>
-                </ul>
-
-                <h3>Instructions</h3>
-                <ol class="instruction-list">
-                    <li>In a large bowl, mix the egg yolks, salt, and 50 g of sugar until light and foamy.</li>
-                    <li>For the meringue, whisk the egg whites and divide 70g of sugar three times, evenly incorporating with egg whites.</li>
-                    <li>Mix the egg yolk mixture with the egg white meringue.</li>
-                    <li>Sift in the flour and baking powder, and fold mixture until no lumps are seen.</li>
-                    <li>Mix the milk and vegetable oil in a separate bowl.</li>
-                    <li>Scoop some of the batter and mix it in the oil and milk mixture.</li>
-                    <li>Incorporate the mixed batter into the rest of the batter.</li>
-                    <li>Scoop mixture into a pan, and bake at a preheated oven at 170°C for 15~20 mins.</li>
-                    <li>Roll the cake and add whipped cream or jam.</li>
-                </ol>
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="ingredient-list">
+                        <li>3 egg yolks</li>
+                        <li>30g granulated sugar</li>
+                        <li>54g flour</li>
+                        <li>1/4 tsp baking powder</li>
+                        <li>1/4 tsp salt</li>
+                        <li>30g vegetable oil</li>
+                        <li>30g milk</li>
+                        <li>1/2 tsp vanilla extract</li>
+                        <li>Whipped cream and chopped mango</li>
+                        <li>For Merengue: 42g sugar and 3 egg whites.</li>
+                    </ul>                       
+                </div>
+            </div>
             </div>
 
-            <div class="recipe-part3">
-                <h2>One-Bowl Brownies</h2>
-                <table>
-                    <tr>
-                        <th>Prep Time</th>
-                        <th>Cooking Time</th>
-                        <th>Total Time</th>
-                    </tr>
-                    <tr>
-                        <td>20 mins</td>
-                        <td>40 mins</td>
-                        <td>1 hr</td>
-                    </tr>
-                </table>
-                <img class="recipe-image" src="../img/brownies.jpg" alt="Image of stacked brownies">
-            </div>
-
-            <div class="recipe-part4">
-                <h3>Ingredients</h3>
-                <ul class="ingredient-list">
-                    <li>1 cup unsalted butter(230 g), 2 sticks</li>
-                    <li>1 ½ cups semi-sweet chocolate chips(260 g), or dark chocolate chips, divided</li>
-                    <li>1 ½ cups granulated sugar(300 g)</li>
-                    <li>¾ cup brown sugar(150 g)</li>
-                    <li>1 tablespoon vanilla extract</li>
-                    <li>1 teaspoon salt</li>
-                    <li>3 large eggs</li>
-                    <li>1 ¼ cups all-purpose flour(155 g)</li>
-                    <li>⅓ cup dark cocoa powder(35 g)</li>
-                </ul>
-
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                 <h3>Instructions</h3>
-                <ol class="instruction-list">
-                    <li>Preheat the oven to 350˚F (180˚C)</li>
-                    <li>Add the butter and 1 cup (175 g) of chocolate chips to a large microwave-safe bowl. Microwave for 1½ minutes, then let sit for 3 minutes before whisking together.</li>
-                    <li>Add the granulated and brown sugars, vanilla, and salt. Whisk to combine.</li>
-                    <li>Whisk in the eggs until fully combined.</li>
-                    <li>Sift the flour and cocoa powder into the bowl and fold in with a spatula. Add the remaining chocolate chips and fold to incorporate.</li>
-                    <li>Line a 9-inch (23-cm) square baking pan with parchment paper and grease with nonstick spray. Spread the batter evenly in the pan.</li>
-                    <li>Bake for 35-40 minutes, until a toothpick inserted in the center comes out with a few moist crumbs attached.</li>
-                    <li>Let cool completely before cutting.</li>
-                </ol>
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ol class="instruction-list">
+                        <li>In a large bowl, whisk the egg yolk, 30g sugar, and salt until light and creamy.</li>
+                        <li>In a separate bowl, whisk egg whites and 42g sugar(divided into three portions) until stiff peaks form.</li>
+                        <li>Mix 1/3 of the meringue with the egg yolk mixture until fully incorporated.</li>
+                        <li>Mix the egg yolk mixture into the rest of the meringue, folding gently.</li>
+                        <li>Sift in flour and baking powder, and gently fold until there are no lumps nor visible flour remains.</li>
+                        <li>Mix vegetable oil, milk, and vanilla.</li>
+                        <li>Add a portion of the batter into the milk mixture and incorporate well.</li>
+                        <li>Pour batter into a lined square mold.</li>
+                        <li>Bake at 150c for 30 mins.</li>
+                        <li>Cover with whipped cream and top with chopped mango.</li>
+                    </ol>
+                </div>
+            </div>
+            </div>
             </div>
         </div>
-        
+
+
+<!-- Brownie Section -->
+<div class="container">
+<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+<div class="col">
+<div class="recipe-part1">
+    <h2 id="brownies">Fudgy Brownies</h2>
+        <table>
+            <tr>
+                <th>Prep Time</th>
+                <th>Cooking Time</th>
+                <th>Total Time</th>
+            </tr>
+            <tr>
+                <td>30 mins</td>
+                <td>30 min</td>
+                <td>1 hr</td>
+            </tr>
+        </table>
+    <img class="recipe-image" src="../img/brownies.jpg" alt="Image of brownies on a plate">
+</div>
+</div>
+
+<div class="col">
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lily.gif/video/7097369829086153990" data-video-id="7097369829086153990" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lily.gif" href="https://www.tiktok.com/@lily.gif">@lily.gif</a> Se buscan personas que quieran comer de mis pastelitos y galletitas 😋✨ <a title="brownies" target="_blank" href="https://www.tiktok.com/tag/brownies">#brownies</a> <a title="reposteria" target="_blank" href="https://www.tiktok.com/tag/reposteria">#reposteria</a> <a title="baking" target="_blank" href="https://www.tiktok.com/tag/baking">#baking</a> <a title="pastelitos" target="_blank" href="https://www.tiktok.com/tag/pastelitos">#pastelitos</a> <a title="coreanaenmexico" target="_blank" href="https://www.tiktok.com/tag/coreanaenmexico">#coreanaenmexico</a> <a title="parati" target="_blank" href="https://www.tiktok.com/tag/parati">#parati</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp">#fyp</a> <a title="bakingtiktok" target="_blank" href="https://www.tiktok.com/tag/bakingtiktok">#bakingtiktok</a> <a title="aesthetic" target="_blank" href="https://www.tiktok.com/tag/aesthetic">#aesthetic</a> <a title="asmr" target="_blank" href="https://www.tiktok.com/tag/asmr">#asmr</a> <a title="food" target="_blank" href="https://www.tiktok.com/tag/food">#food</a> <a title="foodie" target="_blank" href="https://www.tiktok.com/tag/foodie">#foodie</a> <a title="cute" target="_blank" href="https://www.tiktok.com/tag/cute">#cute</a> <a target="_blank" title="♬ La Vie En Rose - Emily Watts" href="https://www.tiktok.com/music/La-Vie-En-Rose-6781027956148930562">♬ La Vie En Rose - Emily Watts</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</div>
+</div>
+</div>
+
+<!-- Brownies Accordion -->    
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        <h3>Ingredients</h3>
+        </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <ul class="ingredient-list">
+                <li>130g dark chocolate</li>
+                <li>90g butter</li>
+                <li>1 tsp instant coffee</li>
+                <li>2 eggs</li>
+                <li>80g brown sugar</li>
+                <li>1/2 tsp vanilla extract</li>
+                <li>30g flour</li>
+                <li>20g cocoa powder</li>
+                <li>40g chocolate chips</li>
+            </ul>                       
+        </div>
+    </div>
+    </div>
+
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        <h3>Instructions</h3>
+        </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <ol class="instruction-list">
+                <li>In a a bowl, melt butter, coffee, dark chocolate and mix well.</li>
+                <li>Whisk eggs and sugar until light and creamy.</li>
+                <li>Pour melted chocolate mixture into the egg mixture and mix until fully incorporated.</li>
+                <li>Sift in flour and cocoa powder, and gently fold until fully incorporated.</li>
+                <li>Gently fold in chocolate chips.</li>
+                <li>Transfer batter into square mold.</li>
+                <li>Bake at 170c for 25~30 mins.</li>
+                <li>Cool completely before serving.</li>
+            </ol>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+
         <a id="back-to-top" href="#top">Back to top</a>
 
     </main>
@@ -134,5 +203,6 @@
             <span>Copyright &copy; 2022 Mini Recipes all rights reserved.</span>
         </div>  
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

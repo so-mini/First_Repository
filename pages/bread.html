@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -30,10 +31,12 @@
     <main>
         <img class="mainBanner" src="../img/breadBanner.jpg" alt="Counter with bread and rye.">
 
-        <div class="page-container">
-            <div class="recipe-part1">
-                <h2>Dinner Rolls</h2>
-
+<!-- Focaccia Section -->
+<div class="container">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+    <div class="col">
+        <div class="recipe-part1">
+            <h2 id="mango-cake">No-Knead Focaccia</h2>
                 <table>
                     <tr>
                         <th>Prep Time</th>
@@ -41,43 +44,64 @@
                         <th>Total Time</th>
                     </tr>
                     <tr>
-                        <td>40 mins</td>
-                        <td>2 hrs</td>
-                        <td>2 hrs 40 mins</td>
+                        <td>20 mins (plus 12~18 hrs)</td>
+                        <td>25 mins</td>
+                        <td>45 mins (+12~18hrs)</td>
                     </tr>
                 </table>
-                <img class="recipe-image" src="../img/dinerRolls.jpg" alt="Image of dinner rolls.">
+            <img class="recipe-image" src="../img/focaccia.jpg" alt="Image of sliced focaccia bread">
+        </div>
+    </div>
+
+    <div class="col">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lily.gif/video/7098830231431105797" data-video-id="7098830231431105797" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@lily.gif" href="https://www.tiktok.com/@lily.gif">@lily.gif</a> Focaccia para todos 🥖✨ receta en los comentarios 💖<a title="focaccia" target="_blank" href="https://www.tiktok.com/tag/focaccia">#focaccia</a> <a title="focacciabread" target="_blank" href="https://www.tiktok.com/tag/focacciabread">#focacciabread</a> <a title="pan" target="_blank" href="https://www.tiktok.com/tag/pan">#pan</a> <a title="haciendopan" target="_blank" href="https://www.tiktok.com/tag/haciendopan">#haciendopan</a> <a title="receta" target="_blank" href="https://www.tiktok.com/tag/receta">#receta</a> <a title="parati" target="_blank" href="https://www.tiktok.com/tag/parati">#parati</a> <a title="baking" target="_blank" href="https://www.tiktok.com/tag/baking">#baking</a> <a title="bread" target="_blank" href="https://www.tiktok.com/tag/bread">#bread</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp">#fyp</a> <a target="_blank" title="♬ Little Things - Adrian Berenguer" href="https://www.tiktok.com/music/Little-Things-6981828410792216577">♬ Little Things - Adrian Berenguer</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+    </div>
+</div>
+
+<!-- Focaccia Accordion -->    
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <h3>Ingredients</h3>
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="ingredient-list">
+                        <li>150g flour</li>
+                        <li>1/2 tsp salt</li>
+                        <li>1/2 instant dry yeast</li>
+                        <li>125 ml warm water</li>
+                        <li>Olive oil</li>
+                    </ul>                       
+                </div>
+            </div>
             </div>
 
-            <div class="recipe-part2">
-                <h3>Ingredients</h3>
-                <ul class="ingredient-list">
-                    <li>1 cup whole milk(240 mL)</li>
-                    <li>½ cup warm water(120 mL)</li>
-                    <li>¼ cup unsalted butter(60 mL), melted</li>
-                    <li>¼ cup sugar(50 g)</li>
-                    <li>2 ¼ teaspoons active dry yeast, 1 packet</li>
-                    <li>4 cups all-purpose flour(500 g), plus more for dusting</li>
-                    <li>1 ½ teaspoons kosher salt</li>
-                    <li>2 large eggs, room temperature</li>
-                    <li>neutral oil, for greasing</li>
-                    <li>sea salt, for sprinkling</li>
-                </ul>
-
+            <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                 <h3>Instructions</h3>
-                <ol class="instruction-list">
-                    <li>In a liquid measuring cup or small bowl, combine the warm milk, warm water, melted butter, and sugar.</li>
-                    <li>Sprinkle the yeast evenly over the wet ingredients, stir to combine, and let stand for 5 minutes, until foamy</li>
-                    <li>In a large bowl, combine the flour and salt, and stir to combine. Beat 1 egg, then add to the bloomed yeast mixture. Pour the wet ingredients into the flour and use a knife to stir until the mixture just comes together and forms a dough. Turn the dough out onto a lightly floured surface and knead for 5-10 minutes, or until the dough becomes smooth. Add more flour as needed to keep the dough from sticking. To test if it’s done, tear off a small piece of dough and stretch into a thin layer. If the dough doesn’t rip, it’s ready. Or, press a finger into the dough to see if it bounces back.</li>
-                    <li>Lightly grease a large glass bowl with oil. Add the dough, cover with plastic wrap, and let rest for 1 hour, or until doubled in size.</li>
-                    <li>Punch down the dough, then turn out onto a floured surface. Knead for a few more minutes, just until the dough is smooth, about 2 minutes.</li>
-                    <li>Divide the dough into 16 equal balls, roughly the size of tangerines.</li>
-                    <li>Knead the balls, gathering the edges of the dough toward the center to make a taut, round ball with a smooth top.</li>
-                    <li>Place the rolls on a parchment paper-lined baking sheet. Cover with plastic wrap and let rise for 30 minutes.</li>
-                    <li>Preheat the oven to 375˚F (190˚C).</li>
-                    <li>Beat the remaining egg in a small bowl. Uncover the rolls and brush with the egg wash. Lightly sprinkle the rolls with sea salt.</li>
-                    <li>Bake for 25-30 minutes, or until the rolls have lightly browned and doubled in size.</li>
-                </ol>
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ol class="instruction-list">
+                        <li>In a large bowl, mix flour, salt, and instant dry yeast.</li>
+                        <li>Add warm water and mix well.</li>
+                        <li>Cover bowl and rest in fridge for 12~18 hours to let it rise.</li>
+                        <li>After letting the dough rise, oil a small mold and transfer dough.</li>
+                        <li>Let dough rise in a warm place for an additional 2 hours.</li>
+                        <li>Add olive oil on dough and sprinkle some salt.</li>
+                        <li>Gently put your fingers on top of the dough to make dimples.</li>
+                        <li>Bake at 200c for 20~25 mins.</li>
+                        <li>Cool and enjoy.</li>
+                    </ol>
+                </div>
+            </div>
+            </div>
             </div>
         </div>
 
@@ -94,5 +118,6 @@
             <span>Copyright &copy; 2022 Mini Recipes all rights reserved.</span>
         </div>  
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
