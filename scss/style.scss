@@ -1,0 +1,505 @@
+@import "variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile (Base) Styles */
+
+/* Header Styles */
+.main-background {
+    background-color: #FAF9F6;
+}
+
+.logoBanner {
+    margin: 1rem auto 0 auto;
+    padding: .5rem;
+    text-align: center;
+}
+
+.mainLogo {
+    display: inline;
+    width: 2.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    display: inline;
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    color: $main-color;
+    padding: .5rem;
+    transition: font-size .2s .1s;
+
+        a &:hover {
+        font-size: 3rem;
+        }
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: center;
+}
+
+.menu-item {
+    list-style: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $main-color;
+    padding: .5rem;
+}
+
+.mainBanner {
+    width: 100%;
+}
+
+/* Link Styles */
+
+ul {
+    font-family: 'Muli', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+        &:link {
+            color: $extra-color;
+        }
+        
+        &:visited {
+            color: $extra-color;
+        }
+        
+        &:hover {
+            color: $secondary-color;
+        }
+        .home &:link,
+        .home &:visited {
+            color: $main-color;
+            font-size: 2rem;
+            font-weight: 900;
+        }
+}
+
+/* Main Body Styles */
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: $secondary-color;
+    text-align: center;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+    text-align: justify;
+    font-size: 1rem;
+    width: 80%;
+    margin: auto;
+    line-height: 1.2rem;
+    padding: 1rem;
+    word-spacing: 4px;
+}
+
+.downArrow {
+    display: block;
+    width: 1.3rem;
+    margin: 0 auto;
+    padding-bottom: .5rem;
+}
+
+.recipe-preview {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: .5rem;
+    transition: all .2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+}
+
+
+.recipe-link {
+    font-family: 'Muli', sans-serif;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem .5rem 1rem .5rem;
+}
+
+.accordion {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+#back-to-top {
+    font-family: 'Muli', sans-serif;
+    color: $main-color;
+    display: block;
+    margin: 1rem auto .4rem auto;
+    padding: 2rem 1rem .5rem 1rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(360deg, #FDA48F,#FFB5A3);
+    height: 8rem;
+
+        .social-logos {
+            justify-content: center;
+            margin: 0 auto;
+        }
+        
+        .socials {
+            margin: 0 auto;
+        }
+        
+        span {
+            font-family: 'Muli', sans-serif;
+            color: #FAF9F6;
+            display: block;
+            margin: 0 auto .4rem auto;
+            text-align: center;
+            font-size: .8rem;
+            font-weight: 550;
+        }
+}
+
+/* Page Styles */
+
+.cookies a:link,
+.cookies a:visited {
+    color: $main-color;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.cakes a:link,
+.cakes a:visited {
+    color: $main-color;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.bread a:link,
+.bread a:visited {
+    color: $main-color;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.contact a:link,
+.contact a:visited {
+    color: $main-color;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.recipe-image {
+    width: 80%;
+    display: block;
+    margin: 2rem auto;
+    transition: all .2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+}
+
+.container {
+    margin-top: 1rem;
+    padding-top:1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+ul.ingredient-list {
+    width: 80%;
+    font-family: 'Muli', sans-serif;
+    margin: 1rem auto;
+    word-spacing: 4px;
+    text-align: left;
+    list-style: none;
+}
+
+ol.instruction-list {
+    width: 70%;
+    font-family: 'Muli', sans-serif;
+    margin: 1rem auto;
+    word-spacing: 7px;
+    text-align: left;
+    padding-bottom: 3rem;
+}
+
+.accordion h3 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+li {
+    line-height: 1rem;
+    padding: .3rem;
+    margin: auto;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1.5px solid;
+    border-color: $main-color;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    padding: .8rem;
+}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: $extra-color;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem 1rem .5rem 1rem;
+}
+
+.baking-video {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+h4 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2rem;
+    color: extra-color;
+    text-align: center;
+    margin: 1rem;
+}
+
+h5 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    color: #646464;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Form Styles */
+
+.mb-3 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-label{
+    font-family: 'Muli', sans-serif;
+    font-size: .8rem;
+    color: #646464;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input[type=submit] {
+    display: block;
+    width: 20%;
+    padding: 0;
+    margin: 1.5rem auto;
+}
+
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .menu-item {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .downArrow {
+        width: 1.5rem;
+    }
+
+    .recipe-preview {
+        width: 80%;
+    }
+
+    .recipe-link {
+        font-size: 1.3rem;
+    }
+
+    /* Page Styles */
+
+    .recipe-image {
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    ul.ingredient-list {
+        width: 60%;
+    }
+
+    ol.instruction-list {
+        width: 50%;
+    }
+
+    li {
+        line-height: 1rem;
+        padding: .3rem;
+        margin: auto;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    .baking-video {
+        width: 40%;
+    }
+
+    .accordion h3 {
+        padding-left: 25%;
+    }
+}
+
+/* Laptop Styles */
+@media (min-width: 992px) {
+
+    .main-menu {
+        display: flex;
+    }
+
+    .logoBanner {
+        justify-content: flex-start;
+        flex-grow: 1;
+        flex-basis: auto;
+        text-align: left;
+        padding-left: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+
+    .menu-nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-basis: auto;
+        flex-grow: 3;
+        padding: 1rem 1rem 0 1rem;
+
+    }
+
+    .menu-item {
+        font-size: 1.4rem;
+        padding: 1.3rem;
+    }
+
+    p {
+        width: 70%;
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        margin-top: 1.5rem;
+        padding: .5rem;
+    }
+
+    .recipe-preview {
+        width: 80%;
+        display: block;
+        padding: .3rem;
+    }
+}
+
+/* Big Screen Styles */
+@media (min-width: 1200px) {
+    .main-menu {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .menu-item {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        width: 80%;
+        margin: 0 auto;
+        padding: .5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+
+    .recipe-preview {
+        width: 80%;
+        height: 40%;
+        display: block;
+        padding: .5rem;
+    }
+
+    .recipe-link {
+        font-family: 'Muli', sans-serif;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: .7rem .5rem 1rem .5rem;
+    }
+}
