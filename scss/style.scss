@@ -123,6 +123,16 @@ p {
     padding-bottom: .5rem;
 }
 
+#easyRecipes{
+    padding: 2rem;
+}
+
+#popularRecipes {
+    padding: 2rem;
+
+}
+
+
 .recipe-preview {
     @include sizes(70%,40%);
     display: block;
@@ -134,7 +144,6 @@ p {
             transform: scale(1.1);
         }
 }
-
 
 .recipe-link {
     font-family: $text-font;

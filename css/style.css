@@ -94,6 +94,12 @@ p {
   margin: 0 auto;
   padding-bottom: .5rem; }
 
+#easyRecipes {
+  padding: 2rem; }
+
+#popularRecipes {
+  padding: 2rem; }
+
 .recipe-preview {
   width: 70%;
   height: 40%;
