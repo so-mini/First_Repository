@@ -113,6 +113,7 @@ p {
     line-height: 1.2rem;
     padding: 1rem;
     word-spacing: 4px;
+    color: #6F6F6F;
 }
 
 .downArrow {
@@ -123,7 +124,7 @@ p {
 }
 
 .recipe-preview {
-    @include sizes(70%,35%);
+    @include sizes(70%,40%);
     display: block;
     margin: auto;
     padding: .5rem;
@@ -405,6 +406,9 @@ input[type=submit] {
     .accordion h3 {
         padding-left: 25%;
     }
+
+    input[type=submit] {
+        width: 10%;}
 }
 
 /* Laptop Styles */
@@ -499,5 +503,8 @@ input[type=submit] {
         font-weight: 700;
         padding: .7rem .5rem 1rem .5rem;
     }
+
+    input[type=submit] {
+        width: 5%;}
 }
 

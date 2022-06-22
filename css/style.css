@@ -85,7 +85,8 @@ p {
   margin: auto;
   line-height: 1.2rem;
   padding: 1rem;
-  word-spacing: 4px; }
+  word-spacing: 4px;
+  color: #6F6F6F; }
 
 .downArrow {
   display: block;
@@ -95,7 +96,7 @@ p {
 
 .recipe-preview {
   width: 70%;
-  height: 35%;
+  height: 40%;
   display: block;
   margin: auto;
   padding: .5rem;
@@ -302,7 +303,9 @@ input[type=submit] {
   .baking-video {
     width: 40%; }
   .accordion h3, .accordion h4, .accordion h5 {
-    padding-left: 25%; } }
+    padding-left: 25%; }
+  input[type=submit] {
+    width: 10%; } }
 
 /* Laptop Styles */
 @media (min-width: 992px) {
@@ -364,4 +367,6 @@ input[type=submit] {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
-    padding: .7rem .5rem 1rem .5rem; } }
+    padding: .7rem .5rem 1rem .5rem; }
+  input[type=submit] {
+    width: 5%; } }
